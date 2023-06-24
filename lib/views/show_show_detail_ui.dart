@@ -12,6 +12,14 @@ class ShowShowDetail extends StatefulWidget {
 class _ShowShowDetailState extends State<ShowShowDetail> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.pink[100],
+      appBar: AppBar(
+        backgroundColor: Colors.pink,
+        title: Text('CAKE SHOP CALL FAST(DETAIL)'
+        ),
+        centerTitle: true,
+      ),
+    );
   }
 }
